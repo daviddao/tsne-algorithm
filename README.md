@@ -1,8 +1,6 @@
 
 # tSNEJS
 
-This is a fork of @karpathy's tSNEJS library for npm. Kudos to him for this awesome library.
-
 tSNEJS is an implementation of t-SNE visualization algorithm in Javascript. 
 
 t-SNE is a visualization algorithm that embeds things in 2 or 3 dimensions. If you have some data and you can measure their pairwise differences, t-SNE visualization can help you identify clusters in your data. See example below.
@@ -38,3 +36,5 @@ And then here is some example code:
 
 The data can be passed to tSNEJS as a set of high-dimensional points using the `tsne.initDataRaw(X)` function, where X is an array of arrays (high-dimensional points that need to be embedded). The algorithm computes the Gaussian kernel over these points and then finds the appropriate embedding.
 
+## About
+Send questions to [@karpathy](https://twitter.com/karpathy).
