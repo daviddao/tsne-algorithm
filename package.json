@@ -1,0 +1,22 @@
+{
+  "name": "tsne",
+  "version": "1.0.0",
+  "description": "A fork of @karpathy's tSNEJS library. Many kudos to him!",
+  "main": "tsne.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/daviddao/tsne"
+  },
+  "keywords": [
+    "tsne","visualisation","algorithm","biojs"
+  ],
+  "author": "David",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/daviddao/tsne/issues"
+  },
+  "homepage": "https://github.com/daviddao/tsne"
+}
