@@ -130,7 +130,11 @@ var tsnejs = tsnejs || { REVISION: 'ALPHA' };
         // normalize p and compute entropy
         var Hhere = 0.0;
         for(var j=0;j<N;j++) {
-          var pj = prow[j] / psum;
+          if(psum == 0) {
+             var pj = 0;
+          } else {
+             var pj = prow[j] / psum;
+          }
           prow[j] = pj;
           if(pj > 1e-7) Hhere -= pj * Math.log(pj);
         }
@@ -254,7 +258,7 @@ var tsnejs = tsnejs || { REVISION: 'ALPHA' };
 
           // compute gain update
           var newgain = sign(gid) === sign(sid) ? gainid * 0.8 : gainid + 0.2;
-          if(gainid < 0.01) gainid = 0.01; // clamp
+          if(newgain < 0.01) newgain = 0.01; // clamp
           this.gains[i][d] = newgain; // store for next turn
 
           // compute momentum step direction

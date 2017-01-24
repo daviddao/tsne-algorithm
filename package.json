@@ -1,6 +1,6 @@
 {
   "name": "tsne",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A fork of @karpathy's tSNE library",
   "main": "tsne.js",
   "scripts": {
