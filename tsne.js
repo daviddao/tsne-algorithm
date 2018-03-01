@@ -1,5 +1,5 @@
 // create main global object
-var tsnejs = tsnejs || { REVISION: 'ALPHA' };
+export var tsnejs = tsnejs || { REVISION: 'ALPHA' };
 
 (function(global) {
   "use strict";
