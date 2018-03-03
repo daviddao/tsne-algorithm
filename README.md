@@ -22,7 +22,7 @@ The algorithm was originally described in this paper:
 You can find the PDF [here](http://jmlr.csail.mit.edu/papers/volume9/vandermaaten08a/vandermaaten08a.pdf).
 
 ## Example code
-Import tsne.js into your document: `<script src="tsne.js"></script>`
+Import tsne.js into your document: `import {tsnejs} from 'tsne'`
 And then here is some example code:
 
 ```javascript
